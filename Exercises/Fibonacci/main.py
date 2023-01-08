@@ -1,14 +1,9 @@
 import fibbonacci as fib
 
 # Main
-fib = fib.fibonacci()
-
+fib_of = fib.Fibonacci()
+#Prompt user for input
 print("Skriv in ett heltal: ")
 var = int(input())
 
-seq = []
-
-seq.append(fib(var) for var in range(var))
-
-print(seq)
-
+print([fib_of(n) for n in range(var)])
