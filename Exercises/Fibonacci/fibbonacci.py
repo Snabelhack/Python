@@ -1,7 +1,4 @@
-
-
 # fibonacci_class.py
-
 class Fibonacci:
     # Initialize the Fibonacci object
     def __init__(self):
@@ -25,3 +22,14 @@ class Fibonacci:
 
 
 
+# Main
+
+# Instansiate fibonacci object.
+fib = Fibonacci()
+
+# Get user input
+print("Skriv in ett heltal: ")
+var = int(input())
+
+# Print output
+print([fib(n) for n in range(var)])
