@@ -1,2 +1,3 @@
 # Python
-Exercises and tasks related to Python in OPA22.
+
+Projects written in Python.
